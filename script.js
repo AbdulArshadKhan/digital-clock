@@ -38,7 +38,8 @@ function updateTime()
     
 }
 
-updateTime()
+updateTime() 
+// If it is not called here then there will be a delay of 500 milliseconds.
 
 setInterval(()=>{
     updateTime()
